@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ecommerceproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="29" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.ecommerceproject.Home.NotificationActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.HelpCenterActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.UserSettingsActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.WishListActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.WelcomeActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.OrderPlacedActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.CardActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.CartActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.BuyActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.OrderActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.CartBuyActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.AddDeliveryDetails" />
+        <activity android:name="com.example.ecommerceproject.Home.ProductActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.ProductMainSubListActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.ZhomeActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.example.ecommerceproject.Sellers.Company.UserLocation"
+            android:label="@string/title_activity_user_location" />
+        <activity android:name="com.example.ecommerceproject.Sellers.Company.AboutCompanyActivity" />
+        <activity
+            android:name="com.example.ecommerceproject.Sellers.Company.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name="com.example.ecommerceproject.Sellers.Company.CompanyHomeActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.ForgotPasswordActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.Company.VAPActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.Company.CompanyAddProductActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.AboutActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.Company.EditCompanyInfoActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.Company.BusinessDetailsAddActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.Company.BusinessRegisterActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.EditUserInfoActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.AddSellerDetailsActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.PhoneVerifyActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.SettingsActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.EmailVerifyActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.SplashActivity" /> <!-- <activity android:name=".Sellers.Main2Activity"></activity> -->
+        <activity android:name="com.example.ecommerceproject.Home.ShopActivity" />
+        <activity android:name="com.example.ecommerceproject.Admin.AdminCheckNewProductsActivity" />
+        <activity android:name="com.example.ecommerceproject.Admin.AdminHomeActivity" />
+        <activity
+            android:name="com.example.ecommerceproject.Sellers.Main2Activity"
+            android:label="@string/title_activity_seller_home" />
+        <activity android:name="com.example.ecommerceproject.Sellers.SellerLoginActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.SellerRegistrationActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.ResetPasswordActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.SellerMaintainProductsActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.SearchProductsActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.SellerUseProductsActivity" />
+        <activity android:name="com.example.ecommerceproject.Admin.AdminNewOrdersActivity" />
+        <activity android:name="com.example.ecommerceproject.Sellers.SellerNewOrdersActivity" />
+        <activity android:name="com.example.ecommerceproject.Buyers.ConfirmFinalOrderActivity" />
+        <activity android:name="com.example.ecommerceproject.Buyers.CartActivity" />
+        <activity android:name="com.example.ecommerceproject.Buyers.ProductDetailsActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.EditInfoActivity" />
+        <activity
+            android:name="com.example.ecommerceproject.Home.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.ecommerceproject.Sellers.SellerCategoryActivity" />
+        <activity
+            android:name="com.example.ecommerceproject.Sellers.SellerAddNewProductActivity"
+            android:parentActivityName="com.example.ecommerceproject.Sellers.SellerCategoryActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ecommerceproject.Home.LoginActivity" />
+        <activity android:name="com.example.ecommerceproject.Home.RegisterActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.ecommerceproject.com.squareup.picasso"
+            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.ecommerceproject.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.ecommerceproject.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

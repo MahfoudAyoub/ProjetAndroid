@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\mehdi\\Desktop\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mehdi\\.gradle\\caches\\transforms-2\\files-2.1\\37208168186916dc47ca1e25affdfeec\\jetified-android-image-cropper-2.7.0\\res\\values-ru-rRU\\values-ru-rRU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,171,257,339,412,487",
+                        "endColumns": "57,57,85,81,72,74,76",
+                        "endOffsets": "108,166,252,334,407,482,559"
+                    }
+                }
+            ]
+        }
+    ]
+}

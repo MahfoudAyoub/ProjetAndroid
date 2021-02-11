@@ -1,0 +1,441 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ecommerceproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.CALL_PHONE" />
+17-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:11:5-69
+17-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:11:22-66
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:12:5-80
+18-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:12:22-77
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:13:5-67
+19-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:14:5-66
+20-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:14:22-63
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\13f6fbdb0b5e209fbd246807892b7884\play-services-measurement-api-17.4.0\AndroidManifest.xml:24:5-68
+26-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\13f6fbdb0b5e209fbd246807892b7884\play-services-measurement-api-17.4.0\AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:26:22-107
+29
+30    <application
+30-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:16:5-109:19
+31        android:allowBackup="true"
+31-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:17:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:18:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:19:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:20:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:21:9-35
+37        android:theme="@style/AppTheme" >
+37-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:22:9-40
+38        <activity android:name="com.example.ecommerceproject.Home.NotificationActivity" />
+38-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:23:9-72
+38-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:23:19-60
+39        <activity android:name="com.example.ecommerceproject.Home.HelpCenterActivity" />
+39-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:24:9-61
+39-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:24:19-58
+40        <activity android:name="com.example.ecommerceproject.Home.UserSettingsActivity" />
+40-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:25:9-63
+40-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:25:19-60
+41        <activity android:name="com.example.ecommerceproject.Home.WishListActivity" />
+41-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:26:9-59
+41-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:26:19-56
+42        <activity android:name="com.example.ecommerceproject.Home.WelcomeActivity" />
+42-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:27:9-58
+42-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:27:19-55
+43        <activity android:name="com.example.ecommerceproject.Home.OrderPlacedActivity" />
+43-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:28:9-62
+43-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:28:19-59
+44        <activity android:name="com.example.ecommerceproject.Home.CardActivity" />
+44-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:29:9-55
+44-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:29:19-52
+45        <activity android:name="com.example.ecommerceproject.Home.CartActivity" />
+45-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:30:9-55
+45-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:30:19-52
+46        <activity android:name="com.example.ecommerceproject.Home.BuyActivity" />
+46-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:31:9-54
+46-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:31:19-51
+47        <activity android:name="com.example.ecommerceproject.Home.OrderActivity" />
+47-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:32:9-56
+47-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:32:19-53
+48        <activity android:name="com.example.ecommerceproject.Home.CartBuyActivity" />
+48-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:33:9-58
+48-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:33:19-55
+49        <activity android:name="com.example.ecommerceproject.Home.AddDeliveryDetails" />
+49-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:34:9-61
+49-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:34:19-58
+50        <activity android:name="com.example.ecommerceproject.Home.ProductActivity" />
+50-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:35:9-58
+50-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:35:19-55
+51        <activity android:name="com.example.ecommerceproject.Home.ProductMainSubListActivity" />
+51-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:36:9-69
+51-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:36:19-66
+52        <activity android:name="com.example.ecommerceproject.Home.ZhomeActivity" />
+52-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:37:9-56
+52-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:37:19-53
+53        <!--
+54             The API key for Google Maps-based APIs is defined as a string resource.
+55             (See the file "res/values/google_maps_api.xml").
+56             Note that the API key is linked to the encryption key used to sign the APK.
+57             You need a different API key for each encryption key, including the release key that is used to
+58             sign the APK for publishing.
+59             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+60        -->
+61        <meta-data
+61-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:46:9-48:55
+62            android:name="com.google.android.geo.API_KEY"
+62-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:47:13-58
+63            android:value="@string/google_maps_key" />
+63-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:48:13-52
+64
+65        <activity
+65-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:50:9-52:68
+66            android:name="com.example.ecommerceproject.Sellers.Company.UserLocation"
+66-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:51:13-57
+67            android:label="@string/title_activity_user_location" />
+67-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:52:13-65
+68        <activity android:name="com.example.ecommerceproject.Sellers.Company.AboutCompanyActivity" />
+68-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:53:9-74
+68-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:53:19-71
+69        <activity
+69-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:54:9-56:59
+70            android:name="com.example.ecommerceproject.Sellers.Company.MapsActivity"
+70-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:55:13-57
+71            android:label="@string/title_activity_maps" />
+71-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:56:13-56
+72        <activity android:name="com.example.ecommerceproject.Sellers.Company.CompanyHomeActivity" />
+72-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:57:9-73
+72-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:57:19-70
+73        <activity android:name="com.example.ecommerceproject.Sellers.ForgotPasswordActivity" />
+73-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:58:9-68
+73-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:58:19-65
+74        <activity android:name="com.example.ecommerceproject.Sellers.Company.VAPActivity" />
+74-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:59:9-65
+74-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:59:19-62
+75        <activity android:name="com.example.ecommerceproject.Sellers.Company.CompanyAddProductActivity" />
+75-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:60:9-79
+75-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:60:19-76
+76        <activity android:name="com.example.ecommerceproject.Sellers.AboutActivity" />
+76-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:61:9-59
+76-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:61:19-56
+77        <activity android:name="com.example.ecommerceproject.Sellers.Company.EditCompanyInfoActivity" />
+77-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:62:9-77
+77-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:62:19-74
+78        <activity android:name="com.example.ecommerceproject.Sellers.Company.BusinessDetailsAddActivity" />
+78-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:63:9-80
+78-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:63:19-77
+79        <activity android:name="com.example.ecommerceproject.Sellers.Company.BusinessRegisterActivity" />
+79-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:64:9-78
+79-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:64:19-75
+80        <activity android:name="com.example.ecommerceproject.Sellers.EditUserInfoActivity" />
+80-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:65:9-66
+80-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:65:19-63
+81        <activity android:name="com.example.ecommerceproject.Sellers.AddSellerDetailsActivity" />
+81-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:66:9-70
+81-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:66:19-67
+82        <activity android:name="com.example.ecommerceproject.Sellers.PhoneVerifyActivity" />
+82-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:67:9-65
+82-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:67:19-62
+83        <activity android:name="com.example.ecommerceproject.Sellers.SettingsActivity" />
+83-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:68:9-62
+83-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:68:19-59
+84        <activity android:name="com.example.ecommerceproject.Sellers.EmailVerifyActivity" />
+84-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:69:9-65
+84-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:69:19-62
+85        <activity android:name="com.example.ecommerceproject.Sellers.SplashActivity" /> <!-- <activity android:name=".Sellers.Main2Activity"></activity> -->
+85-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:70:9-60
+85-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:70:19-57
+86        <activity android:name="com.example.ecommerceproject.Home.ShopActivity" />
+86-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:71:9-55
+86-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:71:19-52
+87        <activity android:name="com.example.ecommerceproject.Admin.AdminCheckNewProductsActivity" />
+87-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:72:9-73
+87-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:72:19-70
+88        <activity android:name="com.example.ecommerceproject.Admin.AdminHomeActivity" />
+88-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:73:9-61
+88-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:73:19-58
+89        <activity
+89-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:74:9-76:66
+90            android:name="com.example.ecommerceproject.Sellers.Main2Activity"
+90-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:75:13-50
+91            android:label="@string/title_activity_seller_home" />
+91-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:76:13-63
+92        <activity android:name="com.example.ecommerceproject.Sellers.SellerLoginActivity" />
+92-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:77:9-65
+92-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:77:19-62
+93        <activity android:name="com.example.ecommerceproject.Sellers.SellerRegistrationActivity" />
+93-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:78:9-72
+93-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:78:19-69
+94        <activity android:name="com.example.ecommerceproject.Home.ResetPasswordActivity" />
+94-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:79:9-64
+94-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:79:19-61
+95        <activity android:name="com.example.ecommerceproject.Sellers.SellerMaintainProductsActivity" />
+95-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:80:9-76
+95-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:80:19-73
+96        <activity android:name="com.example.ecommerceproject.Home.SearchProductsActivity" />
+96-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:81:9-65
+96-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:81:19-62
+97        <activity android:name="com.example.ecommerceproject.Sellers.SellerUseProductsActivity" />
+97-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:82:9-71
+97-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:82:19-68
+98        <activity android:name="com.example.ecommerceproject.Admin.AdminNewOrdersActivity" />
+98-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:83:9-66
+98-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:83:19-63
+99        <activity android:name="com.example.ecommerceproject.Sellers.SellerNewOrdersActivity" />
+99-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:84:9-69
+99-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:84:19-66
+100        <activity android:name="com.example.ecommerceproject.Buyers.ConfirmFinalOrderActivity" />
+100-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:85:9-70
+100-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:85:19-67
+101        <activity android:name="com.example.ecommerceproject.Buyers.CartActivity" />
+101-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:86:9-57
+101-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:86:19-54
+102        <activity android:name="com.example.ecommerceproject.Buyers.ProductDetailsActivity" />
+102-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:87:9-67
+102-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:87:19-64
+103        <activity android:name="com.example.ecommerceproject.Home.EditInfoActivity" />
+103-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:88:9-59
+103-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:88:19-56
+104        <activity
+104-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:89:9-92:59
+105            android:name="com.example.ecommerceproject.Home.HomeActivity"
+105-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:90:13-46
+106            android:label="@string/title_activity_home"
+106-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:91:13-56
+107            android:theme="@style/AppTheme.NoActionBar" />
+107-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:92:13-56
+108        <activity android:name="com.example.ecommerceproject.Sellers.SellerCategoryActivity" />
+108-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:93:9-68
+108-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:93:19-65
+109        <activity
+109-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:94:9-96:76
+110            android:name="com.example.ecommerceproject.Sellers.SellerAddNewProductActivity"
+110-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:95:13-64
+111            android:parentActivityName="com.example.ecommerceproject.Sellers.SellerCategoryActivity" />
+111-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:96:13-73
+112        <activity android:name="com.example.ecommerceproject.Home.MainActivity" >
+112-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:97:9-103:20
+112-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:97:19-52
+113            <intent-filter>
+113-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:98:13-102:29
+114                <action android:name="android.intent.action.MAIN" />
+114-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:99:17-69
+114-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:99:25-66
+115
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:101:17-77
+116-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:101:27-74
+117            </intent-filter>
+118        </activity>
+119        <activity android:name="com.example.ecommerceproject.Home.LoginActivity" />
+119-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:104:9-56
+119-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:104:19-53
+120        <activity android:name="com.example.ecommerceproject.Home.RegisterActivity" />
+120-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:105:9-59
+120-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:105:19-56
+121        <activity
+121-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:106:9-108:59
+122            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+122-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:107:13-76
+123            android:theme="@style/Base.Theme.AppCompat" />
+123-->C:\Users\mehdi\Desktop\android\app\src\main\AndroidManifest.xml:108:13-56
+124
+125        <service
+125-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:29:9-35:19
+126            android:name="com.google.firebase.components.ComponentDiscoveryService"
+126-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:30:13-84
+127            android:directBootAware="true"
+127-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\e41840b121b32a189f48dedd9e79cd51\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+128            android:exported="false" >
+128-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:31:13-37
+129            <meta-data
+129-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+130                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+130-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:33:17-109
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+133                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+133-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d604a7210b7bd680cd94dab28f57984c\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+136                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+136-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d604a7210b7bd680cd94dab28f57984c\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d604a7210b7bd680cd94dab28f57984c\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+138            <meta-data
+138-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\13f6fbdb0b5e209fbd246807892b7884\play-services-measurement-api-17.4.0\AndroidManifest.xml:30:13-32:85
+139                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+139-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\13f6fbdb0b5e209fbd246807892b7884\play-services-measurement-api-17.4.0\AndroidManifest.xml:31:17-139
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\13f6fbdb0b5e209fbd246807892b7884\play-services-measurement-api-17.4.0\AndroidManifest.xml:32:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+142                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+142-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\c19539b70283b21499a0a95e30087126\firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+145                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+145-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\c19539b70283b21499a0a95e30087126\firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\c19539b70283b21499a0a95e30087126\firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+147        </service>
+148
+149        <activity
+149-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+150            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+150-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+151            android:excludeFromRecents="true"
+151-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+152            android:exported="true"
+152-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+153            android:launchMode="singleTask"
+153-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+154            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+154-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+156
+157        <provider
+157-->[com.squareup.picasso:picasso:2.71828] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\15257df6d3447633bba034fa32d95821\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+158            android:name="com.squareup.picasso.PicassoProvider"
+158-->[com.squareup.picasso:picasso:2.71828] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\15257df6d3447633bba034fa32d95821\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+159            android:authorities="com.example.ecommerceproject.com.squareup.picasso"
+159-->[com.squareup.picasso:picasso:2.71828] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\15257df6d3447633bba034fa32d95821\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+160            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+160-->[com.squareup.picasso:picasso:2.71828] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\15257df6d3447633bba034fa32d95821\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+161        <uses-library
+161-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+162            android:name="org.apache.http.legacy"
+162-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+163            android:required="false" />
+163-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+164
+165        <receiver
+165-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+166            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+166-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+167            android:exported="true"
+167-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+168            android:permission="com.google.android.c2dm.permission.SEND" >
+168-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+169            <intent-filter>
+169-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+170                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+170-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+170-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8c791917fd8d28cde2a17c097f0a8ce\firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+171            </intent-filter>
+172        </receiver>
+173
+174        <provider
+174-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\e41840b121b32a189f48dedd9e79cd51\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+175            android:name="com.google.firebase.provider.FirebaseInitProvider"
+175-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\e41840b121b32a189f48dedd9e79cd51\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+176            android:authorities="com.example.ecommerceproject.firebaseinitprovider"
+176-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\e41840b121b32a189f48dedd9e79cd51\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+177            android:exported="false"
+177-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\e41840b121b32a189f48dedd9e79cd51\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+178            android:initOrder="100" />
+178-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\e41840b121b32a189f48dedd9e79cd51\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+179
+180        <activity
+180-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+181            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+181-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+184
+185        <receiver
+185-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:29:9-33:20
+186            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+186-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:30:13-85
+187            android:enabled="true"
+187-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:31:13-35
+188            android:exported="false" >
+188-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:32:13-37
+189        </receiver>
+190
+191        <service
+191-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:35:9-38:40
+192            android:name="com.google.android.gms.measurement.AppMeasurementService"
+192-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:36:13-84
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:37:13-35
+194            android:exported="false" />
+194-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:38:13-37
+195        <service
+195-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:39:9-43:72
+196            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+196-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:40:13-87
+197            android:enabled="true"
+197-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:41:13-35
+198            android:exported="false"
+198-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:42:13-37
+199            android:permission="android.permission.BIND_JOB_SERVICE" />
+199-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\4443008ee7f066753b015c600d13683b\play-services-measurement-17.4.0\AndroidManifest.xml:43:13-69
+200
+201        <meta-data
+201-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8789dcfe31f53c8d5693c7bda5ab45e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+202            android:name="com.google.android.gms.version"
+202-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8789dcfe31f53c8d5693c7bda5ab45e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+203            android:value="@integer/google_play_services_version" />
+203-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\d8789dcfe31f53c8d5693c7bda5ab45e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+204
+205        <provider
+205-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+206            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+206-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+207            android:authorities="com.example.ecommerceproject.lifecycle-process"
+207-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+208            android:exported="false"
+208-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+209            android:multiprocess="true" />
+209-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mehdi\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+210    </application>
+211
+212</manifest>
